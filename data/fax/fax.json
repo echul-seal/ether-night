@@ -538,5 +538,25 @@
   "tx": "US Coast Guard / NWS, Boston",
   "rx": "Shrewsbury, Vermont, USA",
   "rx_host": "sdr.k1vl.com"
+ },
+ {
+  "key": "fax_nmf_9110_20261024T195501Z",
+  "tag": "fax_nmf_9110",
+  "t_start": 1792871701,
+  "utc": "2026-10-24 19:55:01",
+  "t_end": 1792872124,
+  "minutes": 7.0,
+  "complete": true,
+  "status": "chart",
+  "label": "",
+  "corr": 0.788,
+  "midgray": 0.05,
+  "ppm": -75.5,
+  "lines": 775,
+  "freq_khz": 9110,
+  "call": "NMF",
+  "tx": "US Coast Guard / NWS, Boston",
+  "rx": "Shrewsbury, Vermont, USA",
+  "rx_host": "sdr.k1vl.com"
  }
 ]

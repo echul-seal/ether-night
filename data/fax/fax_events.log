@@ -283,3 +283,6 @@
 21:00:44 fax_gya_8040 starts=[] stops=[]
 21:04:51 fax_nmf_9110 starts=['20:15:01'] stops=['20:22:04']
 21:04:51 fax_gya_8040 starts=[] stops=[]
+21:08:58 fax_nmf_9110 starts=[] stops=['20:22:04']
+21:08:58 fax_gya_8040 starts=[] stops=[]
+21:13:06 fax_gya_8040 starts=[] stops=[]

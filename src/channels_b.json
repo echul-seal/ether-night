@@ -1,0 +1,146 @@
+{
+ "ft8_tw_7074": {
+  "host": "bv3un.ddns.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Taoyuan, Taiwan",
+  "lat": 25.0,
+  "lon": 121.3
+ },
+ "ft8_kr_7074": {
+  "host": "hl5ntr-sdr.ddns.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Daegu, South Korea",
+  "lat": 35.9,
+  "lon": 128.6
+ },
+ "ft8_mi_14074": {
+  "host": "greatlakesreceiver.hopto.me",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Muskegon, Michigan, USA",
+  "lat": 43.2,
+  "lon": -86.2
+ },
+ "ft8_bq_14074": {
+  "host": "bon.twrmon.net",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Kralendijk, Bonaire",
+  "lat": 12.2,
+  "lon": -68.3
+ },
+ "ft8_ms_14074": {
+  "host": "108.208.11.177",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Pass Christian, Mississippi, USA",
+  "lat": 30.3,
+  "lon": -89.3
+ },
+ "ft8_is_7074": {
+  "host": "194.144.165.206",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Western Iceland",
+  "lat": 65.7,
+  "lon": -23.6
+ },
+ "ft8_es_7074": {
+  "host": "ea1-fps.homelinux.com",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Asturias, Spain",
+  "lat": 43.1,
+  "lon": -5.8
+ },
+ "ft8_it_7074": {
+  "host": "iw2nke.ddns.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Trecastelli, Italy",
+  "lat": 43.7,
+  "lon": 13.1
+ },
+ "ft8_za2_14074": {
+  "host": "alg.twrmon.net",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Gqeberha, South Africa",
+  "lat": -34.0,
+  "lon": 25.6
+ },
+ "ft8_ro_7074": {
+  "host": "kiwisdr-dorohoi.ddns.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Dorohoi, Romania",
+  "lat": 48.0,
+  "lon": 26.4
+ },
+ "ft8_tn_14074": {
+  "host": "kb5ag.ddns.net",
+  "port": 8074,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Knoxville, Tennessee, USA",
+  "lat": 35.9,
+  "lon": -84.0
+ },
+ "ft8_gr_7074": {
+  "host": "cyp.twrmon.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Cyprus",
+  "lat": 34.76,
+  "lon": 32.53
+ },
+ "ft8_ca_14074": {
+  "host": "sdr2.eurekasdr.org",
+  "port": 8074,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Eureka, Montana",
+  "lat": 48.87,
+  "lon": -114.93
+ },
+ "wspr_no_7038": {
+  "host": "websdr.qrq.se",
+  "port": 80,
+  "dial": 7038.6,
+  "mode": "wspr",
+  "loc": "Heby, Sweden",
+  "lat": 59.94,
+  "lon": 16.94
+ },
+ "ft8_jp_7074": {
+  "host": "nr601sdrnet.ddns.net",
+  "port": 4400,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Osaka, Japan",
+  "lat": 34.858507,
+  "lon": 135.514421
+ },
+ "ft8_tx_14074": {
+  "host": "rgv.twrmon.net",
+  "port": 8075,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Brownsville, Texas, USA",
+  "lat": 25.93,
+  "lon": -97.46
+ }
+}

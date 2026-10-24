@@ -1,0 +1,25 @@
+{
+ "fax_osaka_7795_20261024T154001Z": {
+  "ok": true,
+  "note": "typhoon forecast chart, Japan coastlines and grid readable"
+ },
+ "fax_daegu_3622_20261024T154006Z": {
+  "ok": true,
+  "note": "same WTAS12 chart heard 1,000 km away"
+ },
+ "fax_nmf_9110_20261024T160001Z": {
+  "ok": true,
+  "label": "Iceberg analysis, North American Ice Service",
+  "note": "readable: ICEBERG ANALYSIS FOR 0000 UTC, 24 OCT 2026, NAIS"
+ },
+ "fax_gya_8040_20261024T160005Z": {
+  "ok": true,
+  "label": "Surface chart, NE Atlantic",
+  "note": "isobars, fronts and a geostrophic wind scale; slight slant"
+ },
+ "fax_gya_8040_20261024T162405Z": {
+  "ok": true,
+  "label": "Chart, NE Atlantic (second GYA slot)",
+  "note": "coastlines, grid, isobars and fronts; slanted and noisy"
+ }
+}

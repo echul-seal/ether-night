@@ -1,21 +1,47 @@
 {
  "fax_osaka_7795_20261024T154001Z": {
   "ok": true,
-  "note": "GPT-4o-mini read WTAS12 TYPHOON FORECAST and the 20-30N 130-140E grid"
+  "label": "WTAS12 typhoon forecast, NW Pacific",
+  "note": "Claude Opus 5 read WTAS 12 JMH, 241200UTC OCT 2026, TYPHOON FORECAST, STS 2630 CHAMPI"
  },
- "fax_dwd_7880_20261024T163601Z": {
+ "fax_daegu_3622_20261024T154006Z": {
   "ok": true,
-  "label": "Surface analysis, Europe (Boden, Sa 24 Oktober 2026 12 UTC)",
-  "note": "GPT-4o-mini read Boden, Sa 24 Oktober 2026 12 UTC, H/L centres"
+  "label": "Typhoon warning chart, NW Pacific (same JMH broadcast as Osaka, heard in Korea)",
+  "note": "Claude Opus 5 read TYPHOON FORECAST, STORM WARNING AREA, EXTRA TROPICAL; coastlines of Japan"
+ },
+ "fax_nmf_9110_20261024T160001Z": {
+  "ok": true,
+  "label": "Iceberg analysis, Labrador Sea / Greenland (North American Ice Service)",
+  "note": "Claude Opus 5 read NORTH AMERICAN ICE SERVICE (NAIS), ICEBERG ANALYSIS FOR 0000 UTC, 24 OCT 2026"
  },
  "fax_gya_8040_20261024T160005Z": {
   "ok": true,
   "label": "Surface analysis, NE Atlantic",
-  "note": "isobars 996-1024 hPa, geostrophic wind scale"
+  "note": "GPT-4o-mini: isobars 996-1024 hPa, geostrophic wind scale (Claude re-check did not complete)"
+ },
+ "fax_gya_8040_20261024T162405Z": {
+  "ok": true,
+  "label": "Upper-level wind and isotach chart, North Atlantic",
+  "note": "Claude Opus 5 read VT: SUN 251200Z OCT 2026, wind barbs, isotachs"
+ },
+ "fax_dwd_7880_20261024T163601Z": {
+  "ok": true,
+  "label": "Surface analysis, Europe (Boden, Sa 24 Oktober 2026 12 UTC)",
+  "note": "Claude Opus 5 read Boden, Sa. 24 Oktober 2026 12 UTC, (c) 2026 Deutscher Wetterdienst, ex-hurricane JOSEPHINE, fronts"
  },
  "fax_gya_8040_20261024T163605Z": {
   "ok": true,
-  "label": "Surface chart, NE Atlantic",
-  "note": "H 1029, L 995, fronts, geostrophic wind scale"
+  "label": "Surface pressure chart, North Atlantic",
+  "note": "Claude Opus 5 read Geostrophic wind scale, in kt for 4.0 hPa intervals, lows 995 and 957"
+ },
+ "fax_osaka_7795_20261024T164001Z": {
+  "ok": true,
+  "label": "AUAS50 500 hPa height and temperature analysis, Asia (12 UTC)",
+  "note": "Claude Opus 5 read AUAS50 JMH, 241200Z OCT 2026, HEIGHT(M), TEMP(C)"
+ },
+ "fax_gya_8040_20261024T164805Z": {
+  "ok": true,
+  "label": "Surface analysis, North Atlantic",
+  "note": "Claude Opus 5 read Surface Analysis, Geostrophic wind scale, isobars 1008-1032"
  }
 }

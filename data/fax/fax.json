@@ -78,5 +78,25 @@
   "tx": "Royal Navy / Met Office, Northwood",
   "rx": "Heppen, Belgium",
   "rx_host": "websdr.heppen.be"
+ },
+ {
+  "key": "fax_gya_8040_20261024T162405Z",
+  "tag": "fax_gya_8040",
+  "t_start": 1792859045,
+  "utc": "2026-10-24 16:24:05",
+  "t_end": 1792859716,
+  "minutes": 11.2,
+  "complete": true,
+  "status": "chart",
+  "label": "",
+  "corr": 0.626,
+  "midgray": 0.081,
+  "ppm": -32.5,
+  "lines": 1271,
+  "freq_khz": 8040,
+  "call": "GYA",
+  "tx": "Royal Navy / Met Office, Northwood",
+  "rx": "Heppen, Belgium",
+  "rx_host": "websdr.heppen.be"
  }
 ]

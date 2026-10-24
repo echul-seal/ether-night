@@ -458,5 +458,25 @@
   "tx": "Japan Meteorological Agency, Tokyo",
   "rx": "Daegu, South Korea",
   "rx_host": "hl5ntr.ddns.net"
+ },
+ {
+  "key": "fax_daegu_3622_20261024T183202Z",
+  "tag": "fax_daegu_3622",
+  "t_start": 1792866722,
+  "utc": "2026-10-24 18:32:02",
+  "t_end": 1792868053,
+  "minutes": 22.2,
+  "complete": false,
+  "status": "chart",
+  "label": "FXFE573 / FXFE783 - upper-air temperature, humidity and wind 36 h prognosis",
+  "corr": 0.656,
+  "midgray": 0.691,
+  "ppm": -84.75,
+  "lines": 2579,
+  "freq_khz": 3622.5,
+  "call": "JMH",
+  "tx": "Japan Meteorological Agency, Tokyo",
+  "rx": "Daegu, South Korea",
+  "rx_host": "hl5ntr.ddns.net"
  }
 ]

@@ -108,31 +108,31 @@
   "lon": 32.53
  },
  "ft8_ca_14074": {
-  "host": "sdr2.eurekasdr.org",
-  "port": 8074,
+  "host": "va6ok.ddns.net",
+  "port": 8073,
   "dial": 14074,
   "mode": "ft8",
-  "loc": "Eureka, Montana",
-  "lat": 48.87,
-  "lon": -114.93
+  "loc": "Coronation, Alberta, Canada",
+  "lat": 52.02,
+  "lon": -111.27
  },
  "wspr_no_7038": {
-  "host": "websdr.qrq.se",
-  "port": 80,
+  "host": "178.164.107.18",
+  "port": 8073,
   "dial": 7038.6,
   "mode": "wspr",
-  "loc": "Heby, Sweden",
-  "lat": 59.94,
-  "lon": 16.94
+  "loc": "TRONDHEIM, Norway",
+  "lat": 63.431675,
+  "lon": 10.60633
  },
  "ft8_jp_7074": {
-  "host": "nr601sdrnet.ddns.net",
-  "port": 4400,
+  "host": "jp7fso-kiwisdr.sytes.net",
+  "port": 8073,
   "dial": 7074,
   "mode": "ft8",
-  "loc": "Osaka, Japan",
-  "lat": 34.858507,
-  "lon": 135.514421
+  "loc": "Matsukawa, Fukushima JAPAN",
+  "lat": 37.669714,
+  "lon": 140.492137
  },
  "ft8_tx_14074": {
   "host": "rgv.twrmon.net",
@@ -142,5 +142,32 @@
   "loc": "Brownsville, Texas, USA",
   "lat": 25.93,
   "lon": -97.46
+ },
+ "ft8_ar_14074": {
+  "host": "191.37.241.167",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Palho\u00e7a, Santa Catarina, Brasil",
+  "lat": -27.651058,
+  "lon": -48.708819
+ },
+ "ft8_nzs_7074": {
+  "host": "123.255.47.67",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Mount Climie, Upper Hutt NZ",
+  "lat": -41.150409,
+  "lon": 175.143457
+ },
+ "ft8_pl_7074": {
+  "host": "sdrplonsk.duckdns.org",
+  "port": 8078,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "P\u0142o\u0144sk | POLAND",
+  "lat": 52.615443,
+  "lon": 20.359974
  }
 }

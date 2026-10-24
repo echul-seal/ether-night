@@ -158,5 +158,25 @@
   "tx": "Japan Meteorological Agency, Tokyo",
   "rx": "Osaka, Japan",
   "rx_host": "nr601sdrnet.ddns.net"
+ },
+ {
+  "key": "fax_gya_8040_20261024T164805Z",
+  "tag": "fax_gya_8040",
+  "t_start": 1792860485,
+  "utc": "2026-10-24 16:48:05",
+  "t_end": 1792861205,
+  "minutes": 12.0,
+  "complete": false,
+  "status": "chart",
+  "label": "",
+  "corr": 0.617,
+  "midgray": 0.097,
+  "ppm": -33.25,
+  "lines": 1371,
+  "freq_khz": 8040,
+  "call": "GYA",
+  "tx": "Royal Navy / Met Office, Northwood",
+  "rx": "Heppen, Belgium",
+  "rx_host": "websdr.heppen.be"
  }
 ]

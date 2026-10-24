@@ -1,0 +1,155 @@
+{
+ "ft8_nz_7074": {
+  "host": "sdr.rogerh.co.nz",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Rotorua, New Zealand",
+  "lat": -38.2,
+  "lon": 176.1
+ },
+ "ft8_use_14074": {
+  "host": "sdr.k1vl.com",
+  "port": 8074,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Shrewsbury, Vermont",
+  "lat": 43.5,
+  "lon": -72.8
+ },
+ "ft8_br_14074": {
+  "host": "kiwi.pt2fhc.org",
+  "port": 80,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Brasilia, Brazil",
+  "lat": -15.7,
+  "lon": -47.8
+ },
+ "ft8_za_14074": {
+  "host": "jnb.twrmon.net",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Johannesburg, South Africa",
+  "lat": -26.1,
+  "lon": 28.2
+ },
+ "ft8_hi_14074": {
+  "host": "76.53.60.62",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Waimea, Hawaii",
+  "lat": 20.0,
+  "lon": -155.7
+ },
+ "wspr_au_14095": {
+  "host": "kiwisdr.areg.org.au",
+  "port": 8074,
+  "dial": 14095.6,
+  "mode": "wspr",
+  "loc": "Tarlee, South Australia",
+  "lat": -34.3,
+  "lon": 138.8
+ },
+ "wspr_usw_14095": {
+  "host": "kphsdr.com",
+  "port": 8073,
+  "dial": 14095.6,
+  "mode": "wspr",
+  "loc": "Point Reyes, California",
+  "lat": 38.1,
+  "lon": -122.9
+ },
+ "ft8_qa_14074": {
+  "host": "37.211.71.255",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Doha, Qatar",
+  "lat": 25.3,
+  "lon": 51.5
+ },
+ "ft8_ph_7074": {
+  "host": "dx6ran.ddns.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Talisay City, Philippines",
+  "lat": 10.7,
+  "lon": 123.0
+ },
+ "ft8_in_7074": {
+  "host": "182.59.96.49",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Kozhikode, India",
+  "lat": 11.3,
+  "lon": 75.7
+ },
+ "ft8_au_7074": {
+  "host": "sdr.ironstonerange.com",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Ironstone Range, South Australia",
+  "lat": -35.0,
+  "lon": 138.8
+ },
+ "ft8_nz2_14074": {
+  "host": "kiwisdr.tko.zlwan.net",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Palmerston North, New Zealand",
+  "lat": -40.4,
+  "lon": 175.4
+ },
+ "ft8_usw_7074": {
+  "host": "kphsdr.com",
+  "port": 8072,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Point Reyes, California",
+  "lat": 38.1,
+  "lon": -122.9
+ },
+ "ft8_cz_7074": {
+  "host": "178.17.3.34",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Sedlcany, Czech Republic",
+  "lat": 49.7,
+  "lon": 14.4
+ },
+ "ft8_be_14074": {
+  "host": "websdr.heppen.be",
+  "port": 8073,
+  "dial": 14074,
+  "mode": "ft8",
+  "loc": "Heppen, Belgium",
+  "lat": 51.1,
+  "lon": 5.2
+ },
+ "ft8_fi_7074": {
+  "host": "oh6hps.ddns.net",
+  "port": 8073,
+  "dial": 7074,
+  "mode": "ft8",
+  "loc": "Muurame, Finland",
+  "lat": 62.1,
+  "lon": 25.7
+ },
+ "wspr_fr_10138": {
+  "host": "f4kiy.ddns.net",
+  "port": 8073,
+  "dial": 10138.7,
+  "mode": "wspr",
+  "loc": "Brettnach, France",
+  "lat": 49.3,
+  "lon": 6.6
+ }
+}

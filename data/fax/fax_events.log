@@ -26,3 +26,8 @@
 16:09:38 fax_nmf_9110 starts=['16:00:01'] stops=['16:08:15']
 16:09:38 fax_dwd_7880 starts=[] stops=['15:55:22']
 16:09:38 fax_gya_8040 starts=['16:00:05'] stops=[]
+16:13:58 fax_osaka_7795 starts=['15:40:01'] stops=['15:38:19', '15:58:18']
+16:13:58 fax_daegu_3622 starts=['15:40:06'] stops=['15:58:18']
+16:13:58 fax_nmf_9110 starts=['16:00:01'] stops=['16:08:15']
+16:13:58 fax_dwd_7880 starts=[] stops=['15:55:22']
+16:13:58 fax_gya_8040 starts=['16:00:05'] stops=['16:11:15']

@@ -58,5 +58,25 @@
   "tx": "US Coast Guard / NWS, Boston",
   "rx": "Shrewsbury, Vermont, USA",
   "rx_host": "sdr.k1vl.com"
+ },
+ {
+  "key": "fax_gya_8040_20261024T160005Z",
+  "tag": "fax_gya_8040",
+  "t_start": 1792857605,
+  "utc": "2026-10-24 16:00:05",
+  "t_end": 1792858275,
+  "minutes": 11.2,
+  "complete": true,
+  "status": "chart",
+  "label": "",
+  "corr": 0.593,
+  "midgray": 0.093,
+  "ppm": -33.5,
+  "lines": 1271,
+  "freq_khz": 8040,
+  "call": "GYA",
+  "tx": "Royal Navy / Met Office, Northwood",
+  "rx": "Heppen, Belgium",
+  "rx_host": "websdr.heppen.be"
  }
 ]

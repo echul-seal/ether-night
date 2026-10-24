@@ -1,0 +1,74 @@
+{
+ "fax_osaka_7795": {
+  "host": "nr601sdrnet.ddns.net",
+  "port": 4400,
+  "dial": 7793.1,
+  "freq": 7795,
+  "call": "JMH2",
+  "tx": "Japan Meteorological Agency, Tokyo",
+  "rx": "Osaka, Japan",
+  "lat": 34.7,
+  "lon": 135.5,
+  "sched": "jmh"
+ },
+ "fax_daegu_3622": {
+  "host": "hl5ntr.ddns.net",
+  "port": 8074,
+  "dial": 3620.6,
+  "freq": 3622.5,
+  "call": "JMH",
+  "tx": "Japan Meteorological Agency, Tokyo",
+  "rx": "Daegu, South Korea",
+  "lat": 35.9,
+  "lon": 128.6,
+  "sched": "jmh"
+ },
+ "fax_nmf_9110": {
+  "host": "sdr.k1vl.com",
+  "port": 8073,
+  "dial": 9108.1,
+  "freq": 9110,
+  "call": "NMF",
+  "tx": "US Coast Guard / NWS, Boston",
+  "rx": "Shrewsbury, Vermont, USA",
+  "lat": 43.5,
+  "lon": -72.8,
+  "sched": ""
+ },
+ "fax_dwd_7880": {
+  "host": "f4kiy.ddns.net",
+  "port": 8073,
+  "dial": 7878.1,
+  "freq": 7880,
+  "call": "DDK3",
+  "tx": "Deutscher Wetterdienst, Pinneberg",
+  "rx": "Brettnach, France",
+  "lat": 49.3,
+  "lon": 6.6,
+  "sched": ""
+ },
+ "fax_gya_8040": {
+  "host": "websdr.heppen.be",
+  "port": 8073,
+  "dial": 8038.1,
+  "freq": 8040,
+  "call": "GYA",
+  "tx": "Royal Navy / Met Office, Northwood",
+  "rx": "Heppen, Belgium",
+  "lat": 51.1,
+  "lon": 5.2,
+  "sched": ""
+ },
+ "fax_nmc_8682": {
+  "host": "kphsdr.com",
+  "port": 8073,
+  "dial": 8680.1,
+  "freq": 8682,
+  "call": "NMC",
+  "tx": "US Coast Guard / NWS, Point Reyes",
+  "rx": "Point Reyes, California, USA",
+  "lat": 38.1,
+  "lon": -122.9,
+  "sched": ""
+ }
+}

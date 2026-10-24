@@ -1,9 +1,10 @@
 #!/bin/bash
-# Every 10 min: pull latest digi decodes from the digi box, re-analyse, rebuild the page into site/ (served + committed by sync_fax.sh).
+# Every 10 min: pull digi decodes from every digi box (urls in src/digi_boxes.txt), merge, re-analyse, rebuild the page into site/.
+cd ~/ether
 while true; do
-  curl -s -m 60 https://8080-0woi0gabk8ioh1yv.daytonaproxy01.net/data/decodes.jsonl -o data/decodes.jsonl.new && [ -s data/decodes.jsonl.new ] && mv data/decodes.jsonl.new data/decodes.jsonl
+  i=0; for u in $(cat src/digi_boxes.txt); do i=$((i+1)); curl -s -m 90 $u/data/decodes.jsonl -o data/dec_$i.new && [ -s data/dec_$i.new ] && mv data/dec_$i.new data/dec_$i.jsonl; done
+  cat data/dec_*.jsonl > data/decodes.jsonl 2>/dev/null
   python3 src/analyze_digi.py data/decodes.jsonl data/digi_summary.json > data/analyze.log 2>&1
   python3 src/build_site.py >> data/analyze.log 2>&1
-  true
   sleep 600
 done

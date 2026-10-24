@@ -75,6 +75,13 @@ faxrx = {}
 for f in F:
     faxrx[f['rx']] = f
 svg.append('</svg>')
+V = json.load(open(H + '/data/vision.json')) if os.path.exists(H + '/data/vision.json') else {}
+for f in F:
+    if f['status'] == 'chart':
+        v = V.get(f['key'])
+        if not v: f['status'] = 'decoded, awaiting visual check'
+        elif not v.get('ok'): f['status'] = 'rejected on visual check (' + v.get('note', '') + ')'
+        elif v.get('label') and not f['label']: f['label'] = v['label']
 charts = sorted([f for f in F if f['status'] == 'chart'], key=lambda f: f['t_start'])
 figs = []
 for f in charts:

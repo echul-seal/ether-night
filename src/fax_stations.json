@@ -36,15 +36,15 @@
   "sched": ""
  },
  "fax_dwd_7880": {
-  "host": "f4kiy.ddns.net",
+  "host": "hb9rlm.ddns.net",
   "port": 8073,
   "dial": 7878.1,
   "freq": 7880,
   "call": "DDK3",
   "tx": "Deutscher Wetterdienst, Pinneberg",
-  "rx": "Brettnach, France",
-  "lat": 49.3,
-  "lon": 6.6,
+  "rx": "Zielebach, Switzerland",
+  "lat": 47.15,
+  "lon": 7.57,
   "sched": ""
  },
  "fax_gya_8040": {
@@ -60,15 +60,15 @@
   "sched": ""
  },
  "fax_nmc_8682": {
-  "host": "kphsdr.com",
-  "port": 8073,
+  "host": "kiwisdr.kfsdr.com",
+  "port": 8076,
   "dial": 8680.1,
   "freq": 8682,
   "call": "NMC",
   "tx": "US Coast Guard / NWS, Point Reyes",
-  "rx": "Point Reyes, California, USA",
-  "lat": 38.1,
-  "lon": -122.9,
+  "rx": "Half Moon Bay, California, USA",
+  "lat": 37.38,
+  "lon": -122.41,
   "sched": ""
  }
 }

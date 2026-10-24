@@ -338,5 +338,25 @@
   "tx": "Japan Meteorological Agency, Tokyo",
   "rx": "Daegu, South Korea",
   "rx_host": "hl5ntr.ddns.net"
+ },
+ {
+  "key": "fax_nmf_9110_20261024T173601Z",
+  "tag": "fax_nmf_9110",
+  "t_start": 1792863361,
+  "utc": "2026-10-24 17:36:01",
+  "t_end": 1792864741,
+  "minutes": 23.0,
+  "complete": false,
+  "status": "noise",
+  "label": "",
+  "corr": 0.283,
+  "midgray": 0.175,
+  "ppm": -181.5,
+  "lines": 2693,
+  "freq_khz": 9110,
+  "call": "NMF",
+  "tx": "US Coast Guard / NWS, Boston",
+  "rx": "Shrewsbury, Vermont, USA",
+  "rx_host": "sdr.k1vl.com"
  }
 ]

@@ -133,5 +133,10 @@
   "label": "24-hour 500 mb forecast, North Atlantic",
   "note": "Claude Opus 5 read 24-HOUR 500 MB FOREC...; height contours, wind barbs, L and H centres",
   "ok": true
+ },
+ "fax_nmf_9110_20261024T194502Z": {
+  "label": "96-hour wave period and direction forecast, North Atlantic",
+  "note": "Claude Opus 5: dominant wave period in seconds with direction arrows, grid 20N-60N, 80W-0",
+  "ok": true
  }
 }

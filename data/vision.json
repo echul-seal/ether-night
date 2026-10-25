@@ -128,5 +128,10 @@
   "label": "FXFE573 / FXFE783 upper-air prognosis, Far East (partial)",
   "note": "Claude Opus 5: CHART, upper-air analysis/prognosis panels with isotherms/contours; lower portion lost to grey, black streaks on left edge",
   "ok": true
+ },
+ "fax_nmf_9110_20261024T185501Z": {
+  "label": "24-hour 500 mb forecast, North Atlantic",
+  "note": "Claude Opus 5 read 24-HOUR 500 MB FOREC...; height contours, wind barbs, L and H centres",
+  "ok": true
  }
 }

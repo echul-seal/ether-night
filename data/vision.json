@@ -1,27 +1,132 @@
 {
- "fax_osaka_7795_20261024T154001Z": {"ok": true, "label": "WTAS12 typhoon forecast, NW Pacific", "note": "Claude Opus 5 read WTAS 12 JMH, 241200UTC OCT 2026, TYPHOON FORECAST, STS 2630 CHAMPI"},
- "fax_daegu_3622_20261024T154006Z": {"ok": true, "label": "Typhoon warning chart, NW Pacific (same JMH broadcast as Osaka, heard in Korea)", "note": "Claude Opus 5 read TYPHOON FORECAST, STORM WARNING AREA, EXTRA TROPICAL; coastlines of Japan"},
- "fax_nmf_9110_20261024T160001Z": {"ok": true, "label": "Iceberg analysis, Labrador Sea / Greenland (North American Ice Service)", "note": "Claude Opus 5 read NORTH AMERICAN ICE SERVICE (NAIS), ICEBERG ANALYSIS FOR 0000 UTC, 24 OCT 2026"},
- "fax_gya_8040_20261024T160005Z": {"ok": true, "label": "Surface analysis, North Atlantic / Greenland-Iceland", "note": "Claude Opus 5 read Geostrophic wind scale, in kt for 4.0 hPa intervals; isobars, fronts, lows and highs"},
- "fax_gya_8040_20261024T162405Z": {"ok": true, "label": "Upper-level wind and isotach chart, North Atlantic", "note": "Claude Opus 5 read VT: SUN 251200Z OCT 2026, wind barbs, isotachs"},
- "fax_dwd_7880_20261024T163601Z": {"ok": true, "label": "Surface analysis, Europe (Boden, Sa 24 Oktober 2026 12 UTC)", "note": "Claude Opus 5 read Boden, Sa. 24 Oktober 2026 12 UTC, (c) 2026 Deutscher Wetterdienst, ex-hurricane JOSEPHINE, fronts"},
- "fax_gya_8040_20261024T163605Z": {"ok": true, "label": "Surface pressure chart, North Atlantic", "note": "Claude Opus 5 read Geostrophic wind scale, in kt for 4.0 hPa intervals, lows 995 and 957"},
- "fax_osaka_7795_20261024T164001Z": {"ok": true, "label": "AUAS50 500 hPa height and temperature analysis, Asia (12 UTC)", "note": "Claude Opus 5 read AUAS50 JMH, 241200Z OCT 2026, HEIGHT(M), TEMP(C)"},
- "fax_gya_8040_20261024T164805Z": {"ok": true, "label": "Surface analysis, North Atlantic", "note": "Claude Opus 5 read Surface Analysis, Geostrophic wind scale, isobars 1008-1032"},
- "fax_gya_8040_20261024T170005Z": {"ok": true, "label": "Surface analysis, North Atlantic", "note": "Claude Opus 5 read Surface Analysis, SAT 24 1200Z; isobars, fronts"},
- "fax_daegu_3622_20261024T170000Z": {"ok": true, "label": "AUAS85 850 hPa analysis, Asia (heard in Korea)", "note": "Claude Opus 5: upper-air analysis with map outlines, contours, H and L centres, station plots; noisy left edge"},
- "fax_osaka_7795_20261024T170000Z": {"ok": true, "label": "AUAS85 850 hPa height and temperature analysis, Asia", "note": "Claude Opus 5: JMH 850 hPa analysis, heavily line-noised but legible"},
- "fax_gya_8040_20261024T171206Z": {"ok": true, "label": "Surface prognosis, North Atlantic", "note": "Claude Opus 5 read Surface Prognosis; isobars, fronts, lows and highs around Greenland, Iceland, Norway"},
- "fax_nmf_9110_20261024T172001Z": {"ok": true, "label": "NMF station ID header (NOAA radiofacsimile, Boston)", "note": "Claude Opus 5 read CQ CQ CQ DE NMF NMF NMF, NOAA RADIOFACSIMILE; NOAA and Coast Guard seals. A real decode, not a weather chart"},
- "fax_gya_8040_20261024T172404Z": {"ok": true, "label": "Surface prognosis, North Atlantic (VT Mon 26 Oct 12Z)", "note": "Claude Opus 5 read Surface Prognosis, VT: MON 26 12:00Z OCT 2026; fronts, isobars"},
- "fax_daegu_3622_20261024T171902Z": {"ok": false, "label": "Failed decode (noise)", "note": "Claude Opus 5: NOISE, a corrupted blank gray frame with only a faint strip of content at the top"},
- "fax_osaka_7795_20261024T171903Z": {"ok": false, "label": "Failed decode (noise)", "note": "Claude Opus 5: NOISE, solid black frame with a thin noise band, no chart features, no readable text"},
- "fax_nmf_9110_20261024T175901Z": {"ok": true, "label": "Significant wave height analysis, North Atlantic", "note": "Claude Opus 5 read a numeric grid of wave heights in metres with direction arrows, 80W-0, 20N-50N"},
- "fax_nmf_9110_20261024T181001Z": {"ok": true, "label": "24-hour surface forecast, North Atlantic (Ocean Prediction Center)", "note": "Claude Opus 5 read 24-HOUR SURFACE FORECAST; partially received, left portion blank"},
- "fax_daegu_3622_20261024T181002Z": {"ok": true, "label": "FUFE503 / FSFE03 500 hPa and surface prognosis, Far East", "note": "Claude Opus 5: two panels, surface MSLP with isobars and H/L centres, plus upper-level chart"},
- "fax_daegu_3622_20261024T182104Z": {"ok": true, "label": "FXFE782 upper-air temperature and wind prognosis, Far East", "note": "Claude Opus 5 read FXFE782 JMH 241200Z OCT, VALID 251200Z, TEMP (C), WIND ARROWS"},
- "fax_nmf_9110_20261024T190501Z": {"ok": true, "label": "500 mb height forecast, North Atlantic", "note": "Claude Opus 5 read FORECAST, UTC 24 OCT 2026 / UTC 26 OCT; partially received"},
- "fax_nmf_9110_20261024T195501Z": {"ok": true, "label": "48-hour surface forecast, Atlantic (Ocean Prediction Center)", "note": "Claude Opus 5 read 48-HOUR SURFACE FORECAST / ISSUED; two panels"},
- "fax_nmf_9110_20261024T200501Z": {"ok": true, "label": "96-hour wave period and direction forecast, North Atlantic", "note": "Claude Opus 5 read 096 HR WAV...; Ocean Prediction Center"},
- "fax_nmf_9110_20261024T201501Z": {"ok": true, "label": "500 mb upper-air forecast, North Atlantic", "note": "Claude Opus 5: 500 mb height forecast, partly skewed with noise bands"}
+ "fax_osaka_7795_20261024T154001Z": {
+  "ok": true,
+  "label": "WTAS12 typhoon forecast, NW Pacific",
+  "note": "Claude Opus 5 read WTAS 12 JMH, 241200UTC OCT 2026, TYPHOON FORECAST, STS 2630 CHAMPI"
+ },
+ "fax_daegu_3622_20261024T154006Z": {
+  "ok": true,
+  "label": "Typhoon warning chart, NW Pacific (same JMH broadcast as Osaka, heard in Korea)",
+  "note": "Claude Opus 5 read TYPHOON FORECAST, STORM WARNING AREA, EXTRA TROPICAL; coastlines of Japan"
+ },
+ "fax_nmf_9110_20261024T160001Z": {
+  "ok": true,
+  "label": "Iceberg analysis, Labrador Sea / Greenland (North American Ice Service)",
+  "note": "Claude Opus 5 read NORTH AMERICAN ICE SERVICE (NAIS), ICEBERG ANALYSIS FOR 0000 UTC, 24 OCT 2026"
+ },
+ "fax_gya_8040_20261024T160005Z": {
+  "ok": true,
+  "label": "Surface analysis, North Atlantic / Greenland-Iceland",
+  "note": "Claude Opus 5 read Geostrophic wind scale, in kt for 4.0 hPa intervals; isobars, fronts, lows and highs"
+ },
+ "fax_gya_8040_20261024T162405Z": {
+  "ok": true,
+  "label": "Upper-level wind and isotach chart, North Atlantic",
+  "note": "Claude Opus 5 read VT: SUN 251200Z OCT 2026, wind barbs, isotachs"
+ },
+ "fax_dwd_7880_20261024T163601Z": {
+  "ok": true,
+  "label": "Surface analysis, Europe (Boden, Sa 24 Oktober 2026 12 UTC)",
+  "note": "Claude Opus 5 read Boden, Sa. 24 Oktober 2026 12 UTC, (c) 2026 Deutscher Wetterdienst, ex-hurricane JOSEPHINE, fronts"
+ },
+ "fax_gya_8040_20261024T163605Z": {
+  "ok": true,
+  "label": "Surface pressure chart, North Atlantic",
+  "note": "Claude Opus 5 read Geostrophic wind scale, in kt for 4.0 hPa intervals, lows 995 and 957"
+ },
+ "fax_osaka_7795_20261024T164001Z": {
+  "ok": true,
+  "label": "AUAS50 500 hPa height and temperature analysis, Asia (12 UTC)",
+  "note": "Claude Opus 5 read AUAS50 JMH, 241200Z OCT 2026, HEIGHT(M), TEMP(C)"
+ },
+ "fax_gya_8040_20261024T164805Z": {
+  "ok": true,
+  "label": "Surface analysis, North Atlantic",
+  "note": "Claude Opus 5 read Surface Analysis, Geostrophic wind scale, isobars 1008-1032"
+ },
+ "fax_gya_8040_20261024T170005Z": {
+  "ok": true,
+  "label": "Surface analysis, North Atlantic",
+  "note": "Claude Opus 5 read Surface Analysis, SAT 24 1200Z; isobars, fronts"
+ },
+ "fax_daegu_3622_20261024T170000Z": {
+  "ok": true,
+  "label": "AUAS85 850 hPa analysis, Asia (heard in Korea)",
+  "note": "Claude Opus 5: upper-air analysis with map outlines, contours, H and L centres, station plots; noisy left edge"
+ },
+ "fax_osaka_7795_20261024T170000Z": {
+  "ok": true,
+  "label": "AUAS85 850 hPa height and temperature analysis, Asia",
+  "note": "Claude Opus 5: JMH 850 hPa analysis, heavily line-noised but legible"
+ },
+ "fax_gya_8040_20261024T171206Z": {
+  "ok": true,
+  "label": "Surface prognosis, North Atlantic",
+  "note": "Claude Opus 5 read Surface Prognosis; isobars, fronts, lows and highs around Greenland, Iceland, Norway"
+ },
+ "fax_nmf_9110_20261024T172001Z": {
+  "ok": true,
+  "label": "NMF station ID header (NOAA radiofacsimile, Boston)",
+  "note": "Claude Opus 5 read CQ CQ CQ DE NMF NMF NMF, NOAA RADIOFACSIMILE; NOAA and Coast Guard seals. A real decode, not a weather chart"
+ },
+ "fax_gya_8040_20261024T172404Z": {
+  "ok": true,
+  "label": "Surface prognosis, North Atlantic (VT Mon 26 Oct 12Z)",
+  "note": "Claude Opus 5 read Surface Prognosis, VT: MON 26 12:00Z OCT 2026; fronts, isobars"
+ },
+ "fax_daegu_3622_20261024T171902Z": {
+  "ok": false,
+  "label": "Failed decode (noise)",
+  "note": "Claude Opus 5: NOISE, a corrupted blank gray frame with only a faint strip of content at the top"
+ },
+ "fax_osaka_7795_20261024T171903Z": {
+  "ok": false,
+  "label": "Failed decode (noise)",
+  "note": "Claude Opus 5: NOISE, solid black frame with a thin noise band, no chart features, no readable text"
+ },
+ "fax_nmf_9110_20261024T175901Z": {
+  "ok": true,
+  "label": "Significant wave height analysis, North Atlantic",
+  "note": "Claude Opus 5 read a numeric grid of wave heights in metres with direction arrows, 80W-0, 20N-50N"
+ },
+ "fax_nmf_9110_20261024T181001Z": {
+  "ok": true,
+  "label": "24-hour surface forecast, North Atlantic (Ocean Prediction Center)",
+  "note": "Claude Opus 5 read 24-HOUR SURFACE FORECAST; partially received, left portion blank"
+ },
+ "fax_daegu_3622_20261024T181002Z": {
+  "ok": true,
+  "label": "FUFE503 / FSFE03 500 hPa and surface prognosis, Far East",
+  "note": "Claude Opus 5: two panels, surface MSLP with isobars and H/L centres, plus upper-level chart"
+ },
+ "fax_daegu_3622_20261024T182104Z": {
+  "ok": true,
+  "label": "FXFE782 upper-air temperature and wind prognosis, Far East",
+  "note": "Claude Opus 5 read FXFE782 JMH 241200Z OCT, VALID 251200Z, TEMP (C), WIND ARROWS"
+ },
+ "fax_nmf_9110_20261024T190501Z": {
+  "ok": true,
+  "label": "500 mb height forecast, North Atlantic",
+  "note": "Claude Opus 5 read FORECAST, UTC 24 OCT 2026 / UTC 26 OCT; partially received"
+ },
+ "fax_nmf_9110_20261024T195501Z": {
+  "ok": true,
+  "label": "48-hour surface forecast, Atlantic (Ocean Prediction Center)",
+  "note": "Claude Opus 5 read 48-HOUR SURFACE FORECAST / ISSUED; two panels"
+ },
+ "fax_nmf_9110_20261024T200501Z": {
+  "ok": true,
+  "label": "96-hour wave period and direction forecast, North Atlantic",
+  "note": "Claude Opus 5 read 096 HR WAV...; Ocean Prediction Center"
+ },
+ "fax_nmf_9110_20261024T201501Z": {
+  "ok": true,
+  "label": "500 mb upper-air forecast, North Atlantic",
+  "note": "Claude Opus 5: 500 mb height forecast, partly skewed with noise bands"
+ },
+ "fax_daegu_3622_20261024T183202Z": {
+  "label": "FXFE573 / FXFE783 upper-air prognosis, Far East (partial)",
+  "note": "Claude Opus 5: CHART, upper-air analysis/prognosis panels with isotherms/contours; lower portion lost to grey, black streaks on left edge",
+  "ok": true
+ }
 }
